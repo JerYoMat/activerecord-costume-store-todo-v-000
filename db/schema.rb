@@ -33,7 +33,11 @@ ActiveRecord::Schema.define(version: 3) do
 
   create_table "haunted_houses", force: :cascade do |t|
     t.string "name"
+<<<<<<< HEAD
     t.text "description"
+=======
+    t.string "description"
+>>>>>>> 7131ac63cf07cc19c8b7a17eb14038e99f313fd1
     t.string "location"
     t.string "theme"
     t.integer "price"
